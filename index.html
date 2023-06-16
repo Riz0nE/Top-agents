@@ -10,15 +10,19 @@
 
 <body>
     <header>
-        <section class="bg-black">
-            <div>
+        <section class="bg-black ">
+            <div class="grid grid-cols-3 gap-4  w-auto mx-auto py-12">
                 <div>
                     <img src="images/jett.png.png" alt="">
 
                 </div>
-                <div class="">
-                    <h1 class="text-5xl text-center text-cyan-400 font-semibold">Top Best Agents In Valorant</h1>
+                <div class="text-center text-white">
+                    <h1 class="text-5xl  text-orange-700 font-semibold pt-12 italic">Top Best Agents In Valorant</h1>
+                    <p class="pt-12">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                        officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 </div>
+
                 <div>
                     <img src="images/b.png.png" alt="">
                 </div>
@@ -30,7 +34,127 @@
 
     </header>
 
+    <main>
+        <section class="bg-zinc-900">
+            <div class="grid grid-cols-4 gap-4  w-9/12  mx-auto py-12">
+                <div class="card bg-black border border-white flex flex-col items-center justify-center pb-2 "
+                    style="width: 12rem;">
+                    <img src="images/Chamber.png" class="card-img-top mx-auto d-block" alt="">
+                    <div class="card-body">
+                        <h5 id="text-input" class="card-title text-white text-center font-semibold pt-4">Chamber</h5>
+                        <p class="card-text text-white text-center py-2">30 kills 5 Assist</p>
+                        <button id="btn-c-select"
+                            class="bg-sky-500 hover:bg-sky-700 border border-transparent text-white font-normal px-12 py-1 mb-3">SELECT</button>
+                    </div>
+                </div>
+                <div class="card bg-black border border-white flex flex-col items-center justify-center pb-2 "
+                    style="width: 12rem;">
+                    <img src="images/reyna.png" class="card-img-top mx-auto d-block" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-white text-center font-semibold pt-4">Reyna</h5>
+                        <p class="card-text text-white text-center py-2">30 kills 5 Assist</p>
+                        <button
+                            class="bg-sky-500 hover:bg-sky-700 border border-transparent text-white font-normal px-12 py-1 mb-3">SELECT</button>
+                    </div>
+                </div>
+                <div class="card bg-black border border-white flex flex-col items-center justify-center pb-2 "
+                    style="width: 12rem;">
+                    <img src="images/jett3.png" class="card-img-top mx-auto d-block" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-white text-center font-semibold pt-4">Jett</h5>
+                        <p class="card-text text-white text-center py-2">30 kills 5 Assist</p>
+                        <button
+                            class="bg-sky-500 hover:bg-sky-700 border border-transparent text-white font-normal px-12 py-1 mb-3">SELECT</button>
+                    </div>
+                </div>
+                <div class="card bg-black border border-transparent text-white  pb-2  " style="width: 15rem;">
+                    <div>
+                        <h2 class="text-center text-2xl font-semibold py-2">Selected V</h2>
+                    </div>
+                    <div class="mt-6 font-semibold pl-6 text-1xl">
+                        <ul class="mt-2">1.<span id="my-List"></span></ul>
 
+                    </div>
+
+
+                </div>
+                <div class="card bg-black border border-white flex flex-col items-center justify-center mt-4 pb-2 "
+                    style="width: 12rem;">
+                    <img src="images/Chamber.png" class="card-img-top mx-auto d-block" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-white text-center font-semibold pt-4">Raze</h5>
+                        <p class="card-text text-white text-center py-2">30 kills 5 Assist</p>
+                        <button
+                            class="bg-sky-500 hover:bg-sky-700 border border-transparent text-white font-normal px-12 py-1">SELECT</button>
+                    </div>
+                </div>
+                <div class="card bg-black border border-white flex flex-col items-center justify-center mt-4 pb-2 "
+                    style="width: 12rem;">
+                    <img src="images/reyna.png" class="card-img-top mx-auto d-block" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-white text-center font-semibold pt-4">KillJoy</h5>
+                        <p class="card-text text-white text-center py-2">30 kills 5 Assist</p>
+                        <button
+                            class="bg-sky-500 hover:bg-sky-700 border border-transparent text-white font-normal px-12 py-1">SELECT</button>
+                    </div>
+                </div>
+                <div class="card bg-black border border-white flex flex-col items-center justify-center mt-4 pb-2 "
+                    style="width: 12rem;">
+                    <img src="images/jett3.png" class="card-img-top mx-auto d-block" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-white text-center font-semibold pt-4">Omen</h5>
+                        <p class="card-text text-white text-center py-2">30 kills 5 Assist</p>
+                        <button
+                            class="bg-sky-500 hover:bg-sky-700 border border-transparent text-white font-normal px-12 py-1">SELECT</button>
+                    </div>
+                </div>
+                <div class="card bg-black border border-transparent text-white mt-4  pb-2 " style="width: 15rem;">
+                    <div>
+                        <h2 class="text-center text-2xl font-semibold py-2">Budget </h2>
+                    </div>
+                    <div class="flex">
+                        <label class="px-2 ml-2">Per Player</label>
+                        <input type="text" id="player-field" class="border  px-4 w-28 bg-black text-white ml-2 mb-2">
+                    </div>
+                    <div class="flex flex-col items-center justify-center mt-2">
+                        <button id="btn-calculate"
+                            class="bg-sky-500 hover:bg-sky-700 border border-transparent text-white font-normal  px-16 py-1">Calculate</button>
+                    </div>
+                    <div class="flex mt-4 ">
+                        <h2 class="px-2 ml-2">Player Expences</h3>
+                            <h3 class="ml-8">$<span id="expence-field">00</span></h3>
+                    </div>
+                    <div class="flex mt-4">
+                        <label class="px-2 ml-2">Manager</label>
+                        <input type="text" id="manager-field" class="border  px-4 w-28 bg-black text-white ml-3 mb-2">
+                    </div>
+                    <div class="flex mt-2">
+                        <label class="px-2 ml-2">Coach</label>
+                        <input type="text" id="coach-field" class="border  px-4 w-28 bg-black text-white ml-8 mb-2">
+                    </div>
+                    <div class="flex flex-col items-center justify-center mt-2">
+                        <button id="btn-total"
+                            class="bg-sky-500 hover:bg-sky-700 border border-transparent text-white font-normal px-16 py-1">Calculate</button>
+                    </div>
+                    <div class="flex mt-4 ">
+                        <h2 class="px-2 ml-2">Total Team Cost</h3>
+                            <h3 class="ml-10 text-orange-600">$<span id="total-team-cost">00</span></h3>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer class="bg-zinc-900 h-48 max-h-full  ">
+        <hr class="mb-12">
+        <P class="text-white text-center py-12">Copyright @ 2022 All Rights Reserved.</P>
+    </footer>
+
+    <script src="js/ul-list.js"></script>
+    <script src="js/calculate.js"></script>
 </body>
 
 </html>
